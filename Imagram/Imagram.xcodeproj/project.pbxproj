@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175434AB1A2F4B1900F626E5 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 175434AA1A2F4B1900F626E5 /* placeholder.png */; };
+		175434B21A2F517700F626E5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175434B01A2F517700F626E5 /* ImageIO.framework */; };
+		175434B31A2F517700F626E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175434B11A2F517700F626E5 /* QuartzCore.framework */; };
+		175797DB1A2DDD570029D051 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 175797D91A2DDD570029D051 /* home.png */; };
+		175797DC1A2DDD570029D051 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 175797DA1A2DDD570029D051 /* profile.png */; };
+		56E90A304169BEAAA68400E5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A63A8A6A7CCA47F8BE5004D /* libPods.a */; };
+		FE4FA1CD1A2F74080062BC0C /* FeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4FA1CA1A2F74080062BC0C /* FeedCollectionViewCell.m */; };
+		FE4FA1CE1A2F74080062BC0C /* FeedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4FA1CC1A2F74080062BC0C /* FeedCollectionViewController.m */; };
+		FE6C28ED1A32255500889864 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6C28EC1A32255500889864 /* ImageViewController.m */; };
+		FE8751351A33587C002D8299 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8751331A33587C002D8299 /* Reachability.m */; };
+		FE8751381A335CD4002D8299 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8751371A335CD4002D8299 /* Image.m */; };
+		FE8751441A33729F002D8299 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8751431A33729F002D8299 /* photo-frame.png */; };
+		FEDB2A5C1A2CD17D00D0E275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDB2A5B1A2CD17D00D0E275 /* main.m */; };
+		FEDB2A5F1A2CD17D00D0E275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDB2A5E1A2CD17D00D0E275 /* AppDelegate.m */; };
+		FEDB2A651A2CD17D00D0E275 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDB2A641A2CD17D00D0E275 /* ProfileViewController.m */; };
+		FEDB2A681A2CD17E00D0E275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDB2A661A2CD17D00D0E275 /* Main.storyboard */; };
+		FEDB2A6A1A2CD17E00D0E275 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDB2A691A2CD17E00D0E275 /* Images.xcassets */; };
+		FEDB2A6D1A2CD17E00D0E275 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDB2A6B1A2CD17E00D0E275 /* LaunchScreen.xib */; };
+		FEDB2A791A2CD17E00D0E275 /* ImagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDB2A781A2CD17E00D0E275 /* ImagramTests.m */; };
+		FEFD8BD41A338C1700635E3C /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFD8BD31A338C1700635E3C /* libPods-AFNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEDB2A731A2CD17E00D0E275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEDB2A4E1A2CD17D00D0E275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDB2A551A2CD17D00D0E275;
+			remoteInfo = Imagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		175434AA1A2F4B1900F626E5 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		175434B01A2F517700F626E5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		175434B11A2F517700F626E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		175797D91A2DDD570029D051 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		175797DA1A2DDD570029D051 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		1A63A8A6A7CCA47F8BE5004D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61B11529329BBC497F5665D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C328D36E1D9683AEF545D06B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4FA1C91A2F74080062BC0C /* FeedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCollectionViewCell.h; sourceTree = "<group>"; };
+		FE4FA1CA1A2F74080062BC0C /* FeedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCollectionViewCell.m; sourceTree = "<group>"; };
+		FE4FA1CB1A2F74080062BC0C /* FeedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCollectionViewController.h; sourceTree = "<group>"; };
+		FE4FA1CC1A2F74080062BC0C /* FeedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCollectionViewController.m; sourceTree = "<group>"; };
+		FE6C28EB1A32255500889864 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FE6C28EC1A32255500889864 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		FE8751321A33587C002D8299 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FE8751331A33587C002D8299 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FE8751371A335CD4002D8299 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		FE87513A1A335D4B002D8299 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		FE8751431A33729F002D8299 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		FEDB2A561A2CD17D00D0E275 /* Imagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDB2A5A1A2CD17D00D0E275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDB2A5B1A2CD17D00D0E275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEDB2A5D1A2CD17D00D0E275 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEDB2A5E1A2CD17D00D0E275 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEDB2A631A2CD17D00D0E275 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		FEDB2A641A2CD17D00D0E275 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		FEDB2A671A2CD17E00D0E275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEDB2A691A2CD17E00D0E275 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEDB2A6C1A2CD17E00D0E275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEDB2A721A2CD17E00D0E275 /* ImagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDB2A771A2CD17E00D0E275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDB2A781A2CD17E00D0E275 /* ImagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagramTests.m; sourceTree = "<group>"; };
+		FEFD8BD31A338C1700635E3C /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDB2A531A2CD17D00D0E275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175434B21A2F517700F626E5 /* ImageIO.framework in Frameworks */,
+				175434B31A2F517700F626E5 /* QuartzCore.framework in Frameworks */,
+				FEFD8BD41A338C1700635E3C /* libPods-AFNetworking.a in Frameworks */,
+				56E90A304169BEAAA68400E5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDB2A6F1A2CD17E00D0E275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175797D81A2DDD570029D051 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FE8751431A33729F002D8299 /* photo-frame.png */,
+				175434AA1A2F4B1900F626E5 /* placeholder.png */,
+				175797D91A2DDD570029D051 /* home.png */,
+				175797DA1A2DDD570029D051 /* profile.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1E673540DD2C5615EAA95BB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEFD8BD31A338C1700635E3C /* libPods-AFNetworking.a */,
+				1A63A8A6A7CCA47F8BE5004D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		722005EE97A31C6105A135DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C328D36E1D9683AEF545D06B /* Pods.debug.xcconfig */,
+				B61B11529329BBC497F5665D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE87512E1A335822002D8299 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE8751321A33587C002D8299 /* Reachability.h */,
+				FE8751331A33587C002D8299 /* Reachability.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		FE87512F1A33582D002D8299 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FE87513A1A335D4B002D8299 /* Image.h */,
+				FE8751371A335CD4002D8299 /* Image.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FEDB2A4D1A2CD17D00D0E275 = {
+			isa = PBXGroup;
+			children = (
+				FEDB2A581A2CD17D00D0E275 /* Imagram */,
+				FEDB2A751A2CD17E00D0E275 /* ImagramTests */,
+				FEDB2A571A2CD17D00D0E275 /* Products */,
+				722005EE97A31C6105A135DB /* Pods */,
+				1E673540DD2C5615EAA95BB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDB2A571A2CD17D00D0E275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDB2A561A2CD17D00D0E275 /* Imagram.app */,
+				FEDB2A721A2CD17E00D0E275 /* ImagramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDB2A581A2CD17D00D0E275 /* Imagram */ = {
+			isa = PBXGroup;
+			children = (
+				FE87512E1A335822002D8299 /* utils */,
+				FE87512F1A33582D002D8299 /* model */,
+				175797D81A2DDD570029D051 /* images */,
+				FEDB2A5D1A2CD17D00D0E275 /* AppDelegate.h */,
+				FEDB2A5E1A2CD17D00D0E275 /* AppDelegate.m */,
+				FE4FA1CB1A2F74080062BC0C /* FeedCollectionViewController.h */,
+				FE4FA1CC1A2F74080062BC0C /* FeedCollectionViewController.m */,
+				FE4FA1C91A2F74080062BC0C /* FeedCollectionViewCell.h */,
+				FE4FA1CA1A2F74080062BC0C /* FeedCollectionViewCell.m */,
+				FE6C28EB1A32255500889864 /* ImageViewController.h */,
+				FE6C28EC1A32255500889864 /* ImageViewController.m */,
+				FEDB2A631A2CD17D00D0E275 /* ProfileViewController.h */,
+				FEDB2A641A2CD17D00D0E275 /* ProfileViewController.m */,
+				FEDB2A661A2CD17D00D0E275 /* Main.storyboard */,
+				FEDB2A691A2CD17E00D0E275 /* Images.xcassets */,
+				FEDB2A6B1A2CD17E00D0E275 /* LaunchScreen.xib */,
+				175434B01A2F517700F626E5 /* ImageIO.framework */,
+				175434B11A2F517700F626E5 /* QuartzCore.framework */,
+				FEDB2A591A2CD17D00D0E275 /* Supporting Files */,
+			);
+			path = Imagram;
+			sourceTree = "<group>";
+		};
+		FEDB2A591A2CD17D00D0E275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDB2A5A1A2CD17D00D0E275 /* Info.plist */,
+				FEDB2A5B1A2CD17D00D0E275 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDB2A751A2CD17E00D0E275 /* ImagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEDB2A781A2CD17E00D0E275 /* ImagramTests.m */,
+				FEDB2A761A2CD17E00D0E275 /* Supporting Files */,
+			);
+			path = ImagramTests;
+			sourceTree = "<group>";
+		};
+		FEDB2A761A2CD17E00D0E275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDB2A771A2CD17E00D0E275 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDB2A551A2CD17D00D0E275 /* Imagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDB2A7C1A2CD17E00D0E275 /* Build configuration list for PBXNativeTarget "Imagram" */;
+			buildPhases = (
+				69BF8A80054108E867DA0545 /* Check Pods Manifest.lock */,
+				FEDB2A521A2CD17D00D0E275 /* Sources */,
+				FEDB2A531A2CD17D00D0E275 /* Frameworks */,
+				FEDB2A541A2CD17D00D0E275 /* Resources */,
+				6EFB6B0F6325B8C26F26D3BC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imagram;
+			productName = Imagram;
+			productReference = FEDB2A561A2CD17D00D0E275 /* Imagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEDB2A711A2CD17E00D0E275 /* ImagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDB2A7F1A2CD17E00D0E275 /* Build configuration list for PBXNativeTarget "ImagramTests" */;
+			buildPhases = (
+				FEDB2A6E1A2CD17E00D0E275 /* Sources */,
+				FEDB2A6F1A2CD17E00D0E275 /* Frameworks */,
+				FEDB2A701A2CD17E00D0E275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDB2A741A2CD17E00D0E275 /* PBXTargetDependency */,
+			);
+			name = ImagramTests;
+			productName = ImagramTests;
+			productReference = FEDB2A721A2CD17E00D0E275 /* ImagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDB2A4E1A2CD17D00D0E275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Nevsky";
+				TargetAttributes = {
+					FEDB2A551A2CD17D00D0E275 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FEDB2A711A2CD17E00D0E275 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FEDB2A551A2CD17D00D0E275;
+					};
+				};
+			};
+			buildConfigurationList = FEDB2A511A2CD17D00D0E275 /* Build configuration list for PBXProject "Imagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEDB2A4D1A2CD17D00D0E275;
+			productRefGroup = FEDB2A571A2CD17D00D0E275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDB2A551A2CD17D00D0E275 /* Imagram */,
+				FEDB2A711A2CD17E00D0E275 /* ImagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDB2A541A2CD17D00D0E275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175797DB1A2DDD570029D051 /* home.png in Resources */,
+				FEDB2A681A2CD17E00D0E275 /* Main.storyboard in Resources */,
+				FEDB2A6D1A2CD17E00D0E275 /* LaunchScreen.xib in Resources */,
+				175434AB1A2F4B1900F626E5 /* placeholder.png in Resources */,
+				175797DC1A2DDD570029D051 /* profile.png in Resources */,
+				FEDB2A6A1A2CD17E00D0E275 /* Images.xcassets in Resources */,
+				FE8751441A33729F002D8299 /* photo-frame.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDB2A701A2CD17E00D0E275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69BF8A80054108E867DA0545 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EFB6B0F6325B8C26F26D3BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDB2A521A2CD17D00D0E275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6C28ED1A32255500889864 /* ImageViewController.m in Sources */,
+				FEDB2A651A2CD17D00D0E275 /* ProfileViewController.m in Sources */,
+				FE8751351A33587C002D8299 /* Reachability.m in Sources */,
+				FEDB2A5F1A2CD17D00D0E275 /* AppDelegate.m in Sources */,
+				FE4FA1CD1A2F74080062BC0C /* FeedCollectionViewCell.m in Sources */,
+				FEDB2A5C1A2CD17D00D0E275 /* main.m in Sources */,
+				FE8751381A335CD4002D8299 /* Image.m in Sources */,
+				FE4FA1CE1A2F74080062BC0C /* FeedCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDB2A6E1A2CD17E00D0E275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDB2A791A2CD17E00D0E275 /* ImagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEDB2A741A2CD17E00D0E275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEDB2A551A2CD17D00D0E275 /* Imagram */;
+			targetProxy = FEDB2A731A2CD17E00D0E275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEDB2A661A2CD17D00D0E275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDB2A671A2CD17E00D0E275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDB2A6B1A2CD17E00D0E275 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDB2A6C1A2CD17E00D0E275 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDB2A7A1A2CD17E00D0E275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7+ armv7 arm64";
+			};
+			name = Debug;
+		};
+		FEDB2A7B1A2CD17E00D0E275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7+ armv7 arm64";
+			};
+			name = Release;
+		};
+		FEDB2A7D1A2CD17E00D0E275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C328D36E1D9683AEF545D06B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Imagram",
+				);
+				INFOPLIST_FILE = Imagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7+ armv7 arm64";
+			};
+			name = Debug;
+		};
+		FEDB2A7E1A2CD17E00D0E275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61B11529329BBC497F5665D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Imagram",
+				);
+				INFOPLIST_FILE = Imagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7+ armv7 arm64";
+			};
+			name = Release;
+		};
+		FEDB2A801A2CD17E00D0E275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imagram.app/Imagram";
+			};
+			name = Debug;
+		};
+		FEDB2A811A2CD17E00D0E275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imagram.app/Imagram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDB2A511A2CD17D00D0E275 /* Build configuration list for PBXProject "Imagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDB2A7A1A2CD17E00D0E275 /* Debug */,
+				FEDB2A7B1A2CD17E00D0E275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDB2A7C1A2CD17E00D0E275 /* Build configuration list for PBXNativeTarget "Imagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDB2A7D1A2CD17E00D0E275 /* Debug */,
+				FEDB2A7E1A2CD17E00D0E275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDB2A7F1A2CD17E00D0E275 /* Build configuration list for PBXNativeTarget "ImagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDB2A801A2CD17E00D0E275 /* Debug */,
+				FEDB2A811A2CD17E00D0E275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDB2A4E1A2CD17D00D0E275 /* Project object */;
+}
